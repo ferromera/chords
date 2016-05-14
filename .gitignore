@@ -1,4 +1,7 @@
 *.class
+node_modules
+typings
+.sass-cache
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
