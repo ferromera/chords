@@ -1,0 +1,51 @@
+<header class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle navbar-toggler pull-right" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand visible-xs" href="#">ng2-bootstrap</a>
+    </div>
+    <nav class="hidden-xs hidden-xs-down">
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="navbar-brand" role="button" href="#top">CHORD</a></li>
+        <li class="nav-item dropdown" dropdown [(isOpen)]="status.isopen">
+          <a class="nav-link dropdownToggle dropdown-toggle" dropdownToggle [disabled]="disabled" role="button" aria-haspopup="true">Directives <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#accordion">Accordion</a></li>
+            <li><a class="dropdown-item" href="#alerts">Alerts</a></li>
+            <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+            <li><a class="dropdown-item" href="#carousel">Carousel</a></li>
+            <li><a class="dropdown-item" href="#collapse">Collapse</a></li>
+            <li><a class="dropdown-item" href="#datepicker">Datepicker</a></li>
+            <li><a class="dropdown-item" href="#dropdowns">Dropdowns</a></li>
+            <li><a class="dropdown-item" href="#pagination">Pagination</a></li>
+            <li><a class="dropdown-item" href="#progressbar">Progressbar</a></li>
+            <li><a class="dropdown-item" href="#rating">Rating</a></li>
+            <li><a class="dropdown-item" href="#tabs">Tabs</a></li>
+            <li><a class="dropdown-item" href="#timepicker">Timepicker</a></li>
+            <li><a class="dropdown-item" href="#tooltip">Tooltip</a></li>
+            <li><a class="dropdown-item" href="#typeahead">Typeahead</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#getting-started">Getting started</a></li>
+        <li class="nav-item"><a class="nav-link" href="#migration">Migration</a></li>
+      </ul>
+    </nav>
+    <nav class="visible-xs hidden-md-up">
+      <ul class="nav nav-pills nav-stacked scrollable-menu collapse" aria-expanded="false" aria-hidden="true">
+        <li class="nav-item"><a class="nav-link" href="#getting-started">Getting started</a></li>
+        <li class="nav-item"><a class="nav-link" href="#migration">Migration</a></li>
+        <li class="nav-item"><a class="dropdown-item nav-link" href="#accordion">Accordion</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#alerts">Alerts</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#buttons">Buttons</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#carousel">Carousel</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#collapse">Collapse</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#datepicker">Datepicker</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#dropdowns">Dropdowns</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#pagination">Pagination</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#progressbar">Progressbar</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#rating">Rating</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#tabs">Tabs</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#timepicker">Timepicker</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#tooltip">Tooltip</a></li><li class="nav-item"><a class="dropdown-item nav-link" href="#typeahead">Typeahead</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<br class="clearfix">
+<h1>
+  {{title}}
+</h1>
+<alert dismissOnTimeout="3000">This alert will dismiss in 3s</alert>

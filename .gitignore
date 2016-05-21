@@ -1,4 +1,38 @@
 *.class
-node_modulesgit
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# compiled output
+frontend/dist
+frontend/tmp
+
+# dependencies
+frontend/node_modules
+frontend/bower_components
+
+# IDEs and editors
+/.idea
 *.iml
-.idea/
+
+# misc
+frontend/.sass-cache
+frontend/connect.lock
+frontend/coverage/*
+frontend/libpeerconnection.log
+npm-debug.log
+testem.log
+frontend/typings
+
+# e2e
+frontend/e2e/*.js
+frontend/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
