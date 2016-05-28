@@ -21,13 +21,17 @@ const packages: any = {
  **********************************************************************************************/
 const barrels: string[] = [
   // Angular specific barrels.
-  '@angular/core',
   '@angular/common',
   '@angular/compiler',
+  '@angular/core',
   '@angular/http',
-  '@angular/router',
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
+  '@angular/router',
+  '@angular/router-deprecated',
+  '@angular/testing',
+  '@angular/upgrade',
+
 
   // Thirdparty barrels.
   'rxjs',
